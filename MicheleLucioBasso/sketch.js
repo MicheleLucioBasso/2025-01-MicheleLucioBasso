@@ -339,5 +339,5 @@ function draw() {
   text(`Std dev: ${stats.stdDev4.toFixed(2)}`, chartXStart + barWidth + barWidth / 2, chartY + 15); //${stats.stdDev4.toFixed(2)} valore deviazione standard calcolata column4 (che si trova nella variabile globale stats)
                                                                                                     //toFixed(2) indica che valore numerico deve essere formattato come stringa con 2 cifre decimali
   
-                                                                                                    pop();
+  pop();
 }
