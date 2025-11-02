@@ -15,7 +15,7 @@ let angle; //angolo rotazione
 
 function setup() {
 
-    createCanvas(xMax, yMax);
+    createCanvas(windowWidth, windowHeight);
     background("#66B2FF");
 
 }
