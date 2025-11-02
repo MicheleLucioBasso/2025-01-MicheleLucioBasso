@@ -80,9 +80,9 @@ pop();
 push();
 
 textAlign(CENTER);
-textStyle(32);
+textSize(32);
 fill("#ffffff");
-text('Tieni premuto il mouse');
+text('Tieni premuto il mouse', xGirasole, yGirasole);
 
 pop();
 
